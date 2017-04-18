@@ -1,1 +1,40 @@
-{     "devDependencies": {         "osmosis": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-osmosis",     "homepage": "https://github.com/npmtest/node-npmtest-osmosis",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-osmosis.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### test coverage for  [osmosis (v1.1.4)](https://github.com/rchipka/node-osmosis#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-osmosis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-osmosis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-osmosis.svg)](https://travis-ci.org/npmtest/node-npmtest-osmosis)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "osmosis": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-osmosis",
+    "keywords": [
+        "coverage",
+        "test",
+        "osmosis"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_osmosis.js",
+    "name": "npmtest-osmosis",
+    "nameAlias": "npmtest_osmosis",
+    "nameOriginal": "npmtest-osmosis",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-osmosis.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
