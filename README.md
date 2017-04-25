@@ -1,6 +1,6 @@
 # npmtest-osmosis
 
-#### test coverage for  [osmosis (v1.1.4)](https://github.com/rchipka/node-osmosis#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-osmosis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-osmosis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-osmosis.svg)](https://travis-ci.org/npmtest/node-npmtest-osmosis)
+#### basic test coverage for  [osmosis (v1.1.4)](https://github.com/rchipka/node-osmosis#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-osmosis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-osmosis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-osmosis.svg)](https://travis-ci.org/npmtest/node-npmtest-osmosis)
 
 #### Web scraper for NodeJS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-osmosis/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-osmosis/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-osmosis/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-osmosis/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-osmosis/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-osmosis/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-osmosis/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-osmosis/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-osmosis/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-osmosis/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-osmosis/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-osmosis/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
     "scripts": {
         "test": "node ./node_modules/.bin/nodeunit test"
     },
-    "version": "1.1.4"
+    "version": "1.1.4",
+    "bin": {}
 }
 ```
 

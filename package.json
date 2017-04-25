@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [osmosis (v1.1.4)](https://github.com/rchipka/node-osmosis#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-osmosis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-osmosis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-osmosis.svg)](https://travis-ci.org/npmtest/node-npmtest-osmosis)",
+    "description": "#### basic test coverage for  [osmosis (v1.1.4)](https://github.com/rchipka/node-osmosis#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-osmosis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-osmosis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-osmosis.svg)](https://travis-ci.org/npmtest/node-npmtest-osmosis)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "osmosis": "*",
